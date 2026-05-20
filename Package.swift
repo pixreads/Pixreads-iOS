@@ -5,7 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Pixreads",
-    platforms: [.iOS(.v17)],
+    platforms: [
+        .iOS(.v17)
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
@@ -18,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "Pixreads",
-            url: "https://github.com/pixreads/Pixreads-iOS/releases/download/1.0.1/Pixreads.xcframework.zip",
-            checksum: "0f3b4cf1672dd9a6cb1f7b4c929b04021a16c187747a0406d9187e254742f26c"
+            url: "https://github.com/pixreads/Pixreads-iOS/releases/download/1.0.2/Pixreads.xcframework.zip",
+            checksum: "6d8d324d1947ab2af5c2a72c42f5aba8666c94c8c6ab437fd57537480dd37550"
         )
 
     ]
