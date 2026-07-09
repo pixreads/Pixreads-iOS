@@ -20,8 +20,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "Pixreads",
-            url: "https://github.com/pixreads/Pixreads-iOS/releases/download/1.0.17/Pixreads.xcframework.zip",
-            checksum: "1a536443e2551bc6d05085898cd3d2b40631f42968bb76726a2372c3608cdb73"
+            url: "https://github.com/pixreads/Pixreads-iOS/releases/download/1.0.19/Pixreads.xcframework.zip",
+            checksum: "f45829c634cd9210da0a8ce1a38581dbbe584afd9d8c845ba22113d9e440283c"
         )
 
     ]
